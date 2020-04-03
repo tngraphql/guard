@@ -16,6 +16,9 @@
     "acl tngraphql",
     "tngraph guard"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "jest --verbose --coverage --runInBand",
     "clean": "del dist",
