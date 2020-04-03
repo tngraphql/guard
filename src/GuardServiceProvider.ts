@@ -4,9 +4,8 @@
  * Date: 3/29/2020
  * Time: 7:53 PM
  */
-import {ServiceProvider} from "tn-illuminate";
-// import {Gate, Guard, Helpers} from "@slynova/fence";
-import {Context} from "tn-graphql/dist/resolvers/context";
+import {ServiceProvider} from "@tngraphql/illuminate";
+import {Context} from "@tngraphql/graphql/dist/resolvers/context";
 import {MakePolicyCommand} from "./Command/MakePolicyCommand";
 import {Gate, Guard} from "./index";
 import {Helpers} from "@slynova/fence";

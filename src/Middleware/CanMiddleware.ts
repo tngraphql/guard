@@ -4,7 +4,7 @@
  * Date: 3/29/2020
  * Time: 8:47 PM
  */
-import {ResolverData} from "tn-graphql";
+import {ResolverData} from "@tngraphql/graphql";
 import {AuthorizationException} from "../Exceptions/AuthorizationException";
 
 export class CanMiddleware {

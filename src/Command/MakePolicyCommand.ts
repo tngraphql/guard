@@ -4,9 +4,9 @@
  * Date: 3/29/2020
  * Time: 9:34 PM
  */
-import {GeneratorCommand} from "tn-illuminate/dist/Foundation";
+import {GeneratorCommand} from "@tngraphql/illuminate/dist/Foundation";
 import * as path from "path";
-import {flags} from "tn-console";
+import {flags} from "@tngraphql/console";
 const _ = require('lodash')
 const { singular } = require('pluralize')
 

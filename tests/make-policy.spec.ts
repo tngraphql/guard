@@ -5,7 +5,7 @@
  * Time: 10:09 PM
  */
 
-import {Application, ConsoleKernel} from "tn-illuminate";
+import {Application, ConsoleKernel} from "@tngraphql/illuminate";
 import {MakePolicyCommand} from "../src/Command/MakePolicyCommand";
 import {join} from "path";
 import {Filesystem} from "@poppinss/dev-utils/build";

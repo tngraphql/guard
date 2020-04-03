@@ -5,9 +5,9 @@
  * Time: 10:29 PM
  */
 
-import {Application} from "tn-illuminate";
+import {Application} from "@tngraphql/illuminate";
 import {GuardServiceProvider} from "../src/GuardServiceProvider";
-import {Context} from "tn-graphql/dist/resolvers/context";
+import {Context} from "@tngraphql/graphql/dist/resolvers/context";
 import {CanMiddleware} from "../src/Middleware/CanMiddleware";
 import {Gate} from "@slynova/fence";
 import {AuthorizationException} from "../src/Exceptions/AuthorizationException";

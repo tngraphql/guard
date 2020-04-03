@@ -7,7 +7,7 @@
 
 import {Gate, Guard} from "@slynova/fence";
 import {Storage} from "@slynova/fence/dist/Storage";
-import {Application} from "tn-illuminate";
+import {Application} from "@tngraphql/illuminate";
 import {GuardServiceProvider} from "../src/GuardServiceProvider";
 
 const storage = Storage.instance;
