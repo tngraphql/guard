@@ -1,11 +1,20 @@
 {
   "name": "@tngraphql/guard",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Flexible and Fluent way to manage ACL in TNGraphQL.",
   "main": "dist/src/AuthServiceProvider.js",
   "types": "./dist/src/AuthServiceProvider.d.ts",
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "acl",
+    "security",
+    "ability",
+    "policy",
+    "tngraphql",
+    "acl tngraphql",
+    "tngraph guard"
   ],
   "scripts": {
     "test": "jest --verbose --coverage --runInBand",
