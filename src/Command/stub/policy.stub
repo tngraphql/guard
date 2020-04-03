@@ -1,0 +1,29 @@
+export class ${name} {
+    index(user) {
+        //
+    }
+
+    store(user) {
+        //
+    }
+
+    show(user, ${resource}) {
+        //
+    }
+
+    create(user) {
+        //
+    }
+
+    update(user, ${resource}) {
+        //
+    }
+
+    edit(user) {
+        //
+    }
+
+    destroy(user, ${resource}) {
+        //
+    }
+}
