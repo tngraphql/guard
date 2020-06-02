@@ -1,6 +1,6 @@
 {
   "name": "@tngraphql/guard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Flexible and Fluent way to manage ACL in TNGraphQL.",
   "main": "dist/src/AuthServiceProvider.js",
   "types": "./dist/src/AuthServiceProvider.d.ts",
