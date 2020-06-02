@@ -64,14 +64,15 @@ describe('Make Policy', () => {
 
         const kernel = new ConsoleKernel(app);
         await kernel.handle();
+        kernel.registerCommand([MakePolicyCommand]);
         const cmd = new MakePolicyCommand(app, kernel.getAce());
         cmd.name = 'postpolicy';
         cmd.force = true;
 
-        await cmd.handle();
+        await kernel.call('make:policy', ['postpolicy', '--force'])
         await cmd.handle();
 
-        expect(cmd.logger.logs[1].startsWith('underline(green(create))')).toBe(true);
+        expect(cmd.logger.logs[0].startsWith('underline(green(create))')).toBe(true);
     });
 
 });

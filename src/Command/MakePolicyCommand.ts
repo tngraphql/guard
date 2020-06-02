@@ -6,7 +6,7 @@
  */
 import {GeneratorCommand} from "@tngraphql/illuminate/dist/Foundation";
 import * as path from "path";
-import {flags} from "@tngraphql/console";
+import {args, flags} from "@tngraphql/console";
 const _ = require('lodash')
 const { singular } = require('pluralize')
 
@@ -21,6 +21,9 @@ export class MakePolicyCommand extends GeneratorCommand {
 
     @flags.boolean({description: 'Overwrite keys they already exist'})
     public force: boolean;
+
+    @args.string()
+    public name: string
 
     protected getStub(): string {
         return path.join(__dirname, 'stub/policy.stub');
